@@ -19,6 +19,8 @@
 
         body {
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-image: url(image/jelmer-assink-gzeTjGu3b_k-unsplash.jpg);
+            color: #EEE2DE;
         }
 
         .title {
@@ -44,6 +46,9 @@
         }
 
         .subtitle {
+            width: 500px;
+            /* block ,inline, inline-block */
+            display: inline-block;
             text-align: left;
             background-color: #2B2A4C;
             color: #EEE2DE;
@@ -111,6 +116,8 @@
         form {
             width: 60%;
             background-color: #f5d3c5;
+            background-image: url(image/craig-lovelidge-yDGsn39fbD4-unsplash.jpg);
+            background-size: cover;
             color: #EA906C;
             padding: 1rem 0px;
             border-radius: 1rem;
@@ -132,6 +139,18 @@
             width: 100px;
             border-radius: 6px;
         }
+
+        a {
+            color: #1c7441;
+        }
+
+        a:hover {
+            color: #d71010;
+        }
+
+        a:active {
+            color: #660c0c;
+        }
     </style>
 </head>
 
@@ -149,8 +168,8 @@
         <hr>
         <!-- px=>pixel -->
         <a target="_blank" href="https://www.marieclaire.com.tw/beauty/health-fitness/72828">
-            <img width="100%" src="https://images.uiiiuiii.com/wp-content/uploads/2018/06/i-bn20180629-2-02.jpg"
-                alt="找不到圖片">
+            <img width="100%" style="padding: 24px;"
+                src="https://images.uiiiuiii.com/wp-content/uploads/2018/06/i-bn20180629-2-02.jpg" alt="找不到圖片">
         </a>
         <!--div+class-->
         <div class="subtitle">健身的10個好處</div>
